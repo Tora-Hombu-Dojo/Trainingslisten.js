@@ -1,0 +1,30 @@
+@media print {
+                @page {
+                    margin: 5mm;
+                    size: landscape
+                }
+                div {
+                    display: none;
+                }
+            }
+
+table {
+    border-collapse: collapse;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #000;
+    font-size: 9px;
+    text-align: center;
+}
+
+.name {
+    font-size: 12px;
+    width: 10%;
+}
+
+body {
+    background: white;
+}
