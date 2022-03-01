@@ -16,6 +16,8 @@ function loadTrainingDays() {
 	checkboxNames.forEach(elementName => {
 		if ($("#"+elementName).is(':checked')) trainingDays.push(dayCounter);	
 		dayCounter++;
+		if (dayCounter > 6) 
+			dayCounter = 0;
 	});
 }
 
